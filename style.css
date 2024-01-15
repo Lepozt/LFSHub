@@ -1,0 +1,161 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:black;
+}
+
+@media  screen and (min-width:500px) {
+
+    .header {
+        background:#5c5c5c;
+        border-bottom:1px solid #fffefe;
+        width:100%;
+        display:flex;
+        flex-direction:row;
+    }
+
+    .left-section {
+        width:200px;
+    }
+
+    .middle-section {
+        flex:1;
+        margin-left:50px;
+    }
+
+    .right-section {
+        width:200px;
+    }
+
+    .menu {
+        float:right;
+    }
+
+    input {
+        width:300px;
+        height:40px;
+    }
+}
+
+@media  screen and (max-width:500px) {
+
+    .header {
+        background:#5c5c5c;
+        border-bottom:1px solid #fffefe;
+        width:100%;
+    }
+
+    .description {
+        margin-bottom:40px;
+    }
+
+    .middle-section,
+    .right-section {
+        display:inline;
+    }
+
+    .right-section {
+        float:right;
+        margin-top:-20px;
+        margin-right:10px;
+    }
+
+    .middle-section {
+        vertical-align: top;
+        margin-left:5px;
+    }
+
+    input {
+        width:150px;
+    }
+
+    .logo {
+        padding:0;
+    }
+}
+
+.slogan {
+    height:100px;
+    margin:10px;
+}
+
+.logo {
+    font-family:monospace, arial;
+    padding:10px 0 10px 10px;
+    cursor: default;
+}
+
+.logo-1 {
+    color:#31b5e9;
+}
+
+.logo-2 {
+    color:#e4e3e3;
+}
+
+.logo-3 {
+    color:#cfa92b;
+}
+
+input[type="search"] {
+    margin:5px 5px 5px 5px;
+    border:1px solid black;
+    border-radius: 5px;
+    padding:5px 5px 5px 15px;
+}
+
+input::placeholder {
+    padding-left:0px;
+    padding-top:10px;
+    color:#1a1a1a;
+}
+
+.menu {
+    height:50px;
+}
+
+.description-paragraph {
+    font-family:arial;
+    padding:10px;
+    color: whitesmoke;
+    cursor:default;
+}
+
+.lfs {
+    margin:10px;
+    border:1px solid #5c5c5c;
+    box-shadow:#5c5c5c 0px 0px 10px 0px;
+    border-radius: 5px;
+    width:90%;
+}
+
+.lfs-1 {
+    max-width:95%;
+    margin-top:5px;
+}
+
+.lfs-description {
+    color:whitesmoke;
+    margin:10px;
+    font-family:monospace,arial;
+    font-size:15px;
+}
+
+.s2-z28 {
+    text-decoration:none;
+}
+
+footer {
+    margin-top:10rem;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+
+  }
